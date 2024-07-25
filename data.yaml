@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['Cheating', 'Mobile', 'Normal']
+nc: 2
+names: ['cheating', 'not_cheating']
 
 roboflow:
-  workspace: examcheating
-  project: rechang_exam_cheating
-  version: 4
+  workspace: hieu-workspace
+  project: giam_sat_gian_lan
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/examcheating/rechang_exam_cheating/dataset/4
+  url: https://universe.roboflow.com/hieu-workspace/giam_sat_gian_lan/dataset/2
